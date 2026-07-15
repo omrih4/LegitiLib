@@ -1,6 +1,6 @@
 package me.omrih.legiti.client.mixin;
 
-import me.omrih.legiti.client.EventHandler;
+import me.omrih.legiti.client.api.EventHandler;
 import net.minecraft.network.Connection;
 import net.minecraft.network.PacketListener;
 import net.minecraft.network.chat.Component;

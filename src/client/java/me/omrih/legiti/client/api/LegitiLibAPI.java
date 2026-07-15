@@ -1,6 +1,8 @@
-package me.omrih.legiti.client;
+package me.omrih.legiti.client.api;
 
 
+import me.omrih.legiti.client.World;
+import me.omrih.legiti.client.api.event.WorldChangedEvent;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientPacketListener;
 import org.jetbrains.annotations.Nullable;
@@ -39,5 +41,6 @@ public class LegitiLibAPI {
 
     void setWorld(World world) {
         this.world = world;
+        WorldChangedEvent.EVENT.invoker().onWorldJoin(world);
     }
 }

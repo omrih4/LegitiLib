@@ -1,5 +1,6 @@
-package me.omrih.legiti.client;
+package me.omrih.legiti.client.api;
 
+import me.omrih.legiti.client.World;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.fabric.api.networking.v1.PacketSender;
 import net.minecraft.client.Minecraft;
