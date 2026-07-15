@@ -18,4 +18,32 @@ public class World {
         this.created = created;
         this.uuid = uuid;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+    public int getVotes() {
+        return votes;
+    }
+
+    public int getVisits() {
+        return visits;
+    }
+
+    public String getCreated() {
+        return created;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
 }
