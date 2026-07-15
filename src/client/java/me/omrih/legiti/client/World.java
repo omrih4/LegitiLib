@@ -4,8 +4,8 @@ public class World {
     private final String name;
     private final String description;
     private final String owner;
-    private final int votes;
-    private final int visits;
+    private final int votes; // defaults to 0 for worlds part of an ongoing jam
+    private final int visits; // defaults to 0 for worlds part of an ongoing jam
     private final String created;
     private final String uuid;
 

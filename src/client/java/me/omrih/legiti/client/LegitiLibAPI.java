@@ -31,7 +31,7 @@ public class LegitiLibAPI {
     }
 
     /**
-     * @return The legitimoose {@link World} the player is on.
+     * @return The legitimoose {@link World} the client is currently online in.
      */
     public @Nullable World getWorld() {
         return world;
