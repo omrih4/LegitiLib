@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "legitilib",
+  "version": "${version}",
+  "name": "LegitiLib",
+  "description": "A library mod for the Legitimoose server.",
+  "authors": [
+    "Omri"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/legitilib/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.omrih.legiti.client.LegitiLibClient"
+    ],
+    "main": [
+      "me.omrih.legiti.LegitiLib"
+    ]
+  },
+  "mixins": [
+    "legitilib.mixins.json",
+    {
+      "config": "legitilib.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
