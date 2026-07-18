@@ -64,7 +64,7 @@ public class EventHandler {
                     );
                     LegitiLibAPI.getInstance().setWorld(world);
                 } else {
-                    LegitiLibAPI.getInstace().setWorld(null);
+                    LegitiLibAPI.getInstance().setWorld(null);
                 }
                 whereamiString = new StringBuilder();
                 read = false;
