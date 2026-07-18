@@ -63,6 +63,8 @@ public class EventHandler {
                             whereamiMatcher.group(5)
                     );
                     LegitiLibAPI.getInstance().setWorld(world);
+                } else {
+                    LegitiLibAPI.getInstace().setWorld(null);
                 }
                 whereamiString = new StringBuilder();
                 read = false;
